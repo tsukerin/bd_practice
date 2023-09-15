@@ -7,8 +7,8 @@ def calculate_total_price(apples):
     return total_price
 
 print("Введите количество яблок.")
-a = int(input())
-print(f"У вас {a} яблок.")
+apple_count= int(input())
+print(f"У вас {apple_count} яблок.")
 apples = dict()
 print("Укажите, какого сорта яблоко по очереди:")
 for i in range(0, int(a)):

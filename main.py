@@ -22,3 +22,4 @@ print("Процент загруженных данных")
 for i in range(1,101):
     time.sleep(0.25)
     print(f"{i}%")
+import numpy

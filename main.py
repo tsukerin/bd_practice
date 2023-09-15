@@ -32,3 +32,16 @@ for i in range(1, 11):
     time.sleep(0.5)
     print(f"Загружено {i*10}% данных.")
 print("Загрузка данных завершена.")
+
+print("Напишите пароль содержащий цифры сумма которых даст 13:")
+prol = 1
+mam = 0
+while prol != 13:
+    stree = str(input())
+    for i in range(0,len(stree)):
+        mam += int(stree[i])
+    prol = mam
+    if prol == 13:
+        print("Вы вошли в систему")
+    else:
+        print("Попробуйте еще раз")

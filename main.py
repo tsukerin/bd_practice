@@ -3,7 +3,8 @@ import time
 print("Введите количество яблок.")
 a = int(input())
 print(f"У вас {a} яблок.")
-apples = dict()
+
+apples = {}
 
 print("Укажите, какого сорта яблоко по очереди:")
 for _ in range(a):

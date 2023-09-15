@@ -6,6 +6,16 @@ def calculate_total_price(apples):
         total_price += int(price)
     return total_price
 
+def draw_apple_outline():
+    print("   ******\**")
+    print(" **          **")
+    print("**           **")
+    print("**           **")
+    print("**           **")
+    print("**           **")
+    print(" **         **")
+    print("   *********")
+
 print("Введите количество яблок.")
 apple_count= int(input())
 print(f"У вас {apple_count} яблок.")

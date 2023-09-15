@@ -15,3 +15,6 @@ experimental:
 
 Версия 2.0:
 - На текущий момент финальная версия программы
+
+Git Graph программы:
+![image](https://github.com/tsukerin/bd_practice/assets/107303964/18b1bc1e-4d80-45e6-958f-65cf81434e63)

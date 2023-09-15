@@ -7,23 +7,24 @@ def get_int_input(prompt):
         except ValueError:
             print("Пожалуйста, введите целое число.")
 
+def get_float_input(prompt):
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Пожалуйста, введите число.")
+
 def main():
-    print("Введите количество яблок.")
-    a = get_int_input()
-    print(f"У вас {a} яблок.")
+    print("Введите количество яблок:")
+    apple_count = get_int_input()
+    print(f"У вас {apple_count} яблок.")
 
     apples = {}
 
     print("Укажите, какого сорта яблоко по очереди:")
-    for _ in range(a):
+    for _ in range(apple_count):
         type_apple = input()
-        while True:
-            try:
-                price = float(input("Теперь укажите цену за каждое яблоко:"))
-                break
-            except ValueError:
-                print("Пожалуйста, введите число для цены.")
-
+        price = get_float_input("Теперь укажите цену за каждое яблоко:")
         apples[type_apple] = price
 
     print("Информация о ваших яблоках:")

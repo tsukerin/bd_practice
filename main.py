@@ -16,8 +16,8 @@ print("Информация о ваших яблоках:")
 for type_apple, price in apples.items():
     print(f"Сорт: {type_apple}, Цена: {price}")
 
-print("Ваш компьютер взломали: ")
-print("Процент загруженных данных")
+print("Выполняется обработка данных")
+print("Процент завершенности обработки")
 for i in range(1, 101):
     time.sleep(0.25)
     print(f"{i}%")

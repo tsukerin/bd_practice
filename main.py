@@ -47,6 +47,7 @@ print("Напишите пароль содержащий цифры сумма 
 prol = 1
 mam = 0
 #sdfsdf
+#dfsdfs
 while prol != 13:
     stree = str(input())
     for i in range(0,len(stree)):

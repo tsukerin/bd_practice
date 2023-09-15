@@ -52,6 +52,6 @@ while prol != 13:
         mam += int(stree[i])
     prol = mam
     if prol == 13:
-        print("Вы вошли в систему")
+        print("Вы вошли в систему.")
     else:
         print("Попробуйте еще раз.")

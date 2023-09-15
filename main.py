@@ -27,8 +27,8 @@ for type_apple, price in apples.items():
 total_price = calculate_total_price(apples)
 print(f"Общая стоимость всех яблок: {total_price}")
 
-print("Ваш комп взломали: ")
-print("Процент загруженных данных")
-for i in range(1, 101):
-    time.sleep(0.25)
-    print(f"{i}%")
+print("Загрузка данных в базу данных...")
+for i in range(1, 11):
+    time.sleep(0.5)
+    print(f"Загружено {i*10}% данных.")
+print("Загрузка данных завершена.")
